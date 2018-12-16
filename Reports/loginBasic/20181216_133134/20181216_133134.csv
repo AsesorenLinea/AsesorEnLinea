@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+loginBasic,Chrome 71.0.3578.98,,2018-12-16 13:31:37,2018-12-16 13:32:15,"38,738s",PASSED
+,,,,,,
+Test Cases/LoginAsesorBasic,Chrome 71.0.3578.98,,2018-12-16 13:31:37,2018-12-16 13:31:50,"13,008s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-16 13:31:37,2018-12-16 13:31:41,"3,966s",PASSED
+"navigateToUrl(""https://webasesorenlineaqa.azurewebsites.net/Account/Login#!/"")",Chrome 71.0.3578.98,,2018-12-16 13:31:41,2018-12-16 13:31:48,"6,908s",PASSED
+"setText(findTestObject(""Object Repository/Page_AsesorEnLineaQA/input_INGRESE_UserName""), ""pruebasuracallejas@gmail.com"")",Chrome 71.0.3578.98,,2018-12-16 13:31:48,2018-12-16 13:31:49,"0,447s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_AsesorEnLineaQA/input_INGRESE_Password""), ""b+8P+9F4CC4="")",Chrome 71.0.3578.98,,2018-12-16 13:31:49,2018-12-16 13:31:49,"0,322s",PASSED
+"click(findTestObject(""Object Repository/Page_AsesorEnLineaQA/button_INGRESE""))",Chrome 71.0.3578.98,,2018-12-16 13:31:49,2018-12-16 13:31:49,"0,148s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-16 13:31:49,2018-12-16 13:31:50,"0,748s",PASSED
+,,,,,,
+Test Cases/LoginAfiliadoBasic,Chrome 71.0.3578.98,,2018-12-16 13:31:50,2018-12-16 13:32:15,"25,371s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-16 13:31:50,2018-12-16 13:31:52,"2,180s",PASSED
+"navigateToUrl(""https://webasesorenlineaqa.azurewebsites.net/Affiliate/LoginAffiliate#!/"")",Chrome 71.0.3578.98,,2018-12-16 13:31:52,2018-12-16 13:32:00,"7,478s",PASSED
+delay(10),Chrome 71.0.3578.98,,2018-12-16 13:32:00,2018-12-16 13:32:10,"10,017s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione el Tipo de A""), ""3"", true)",Chrome 71.0.3578.98,,2018-12-16 13:32:10,2018-12-16 13:32:10,"0,276s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione el Tipo de D""), ""1"", true)",Chrome 71.0.3578.98,,2018-12-16 13:32:10,2018-12-16 13:32:10,"0,181s",PASSED
+"setText(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_NumeroIdentific""), ""71388459"")",Chrome 71.0.3578.98,,2018-12-16 13:32:10,2018-12-16 13:32:10,"0,167s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_Email""))",Chrome 71.0.3578.98,,2018-12-16 13:32:10,2018-12-16 13:32:11,"0,106s",PASSED
+"setText(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_Email""), ""pruebas.callejas.asesor.en.linea.afiliado@gmail.com"")",Chrome 71.0.3578.98,,2018-12-16 13:32:11,2018-12-16 13:32:11,"0,447s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/button_CONTINUE""))",Chrome 71.0.3578.98,,2018-12-16 13:32:11,2018-12-16 13:32:11,"0,086s",PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-16 13:32:11,2018-12-16 13:32:14,"3,002s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione la EmpresaIG""), ""N900693655"", true)",Chrome 71.0.3578.98,,2018-12-16 13:32:14,2018-12-16 13:32:14,"0,186s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/button_INGRESE""))",Chrome 71.0.3578.98,,2018-12-16 13:32:14,2018-12-16 13:32:14,"0,089s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione la EmpresaIG""), ""0"", true)",Chrome 71.0.3578.98,,2018-12-16 13:32:14,2018-12-16 13:32:15,"0,135s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-16 13:32:15,2018-12-16 13:32:15,"0,771s",PASSED
