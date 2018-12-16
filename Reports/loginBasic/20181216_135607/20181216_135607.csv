@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+loginBasic,Chrome 71.0.3578.98,,2018-12-16 13:56:09,2018-12-16 13:56:42,"33,214s",FAILED
+,,,,,,
+Test Cases/LoginAsesorBasic,Chrome 71.0.3578.98,,2018-12-16 13:56:09,2018-12-16 13:56:19,"9,776s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-16 13:56:10,2018-12-16 13:56:13,"3,570s",PASSED
+"navigateToUrl(""https://webasesorenlineaqa.azurewebsites.net/Account/Login#!/"")",Chrome 71.0.3578.98,,2018-12-16 13:56:13,2018-12-16 13:56:18,"4,448s",PASSED
+"setText(findTestObject(""LoginAsesorBasic/input_INGRESE_UserName""), ""pruebasuracallejas@gmail.com"")",Chrome 71.0.3578.98,,2018-12-16 13:56:18,2018-12-16 13:56:18,"0,281s",PASSED
+"setEncryptedText(findTestObject(""LoginAsesorBasic/input_INGRESE_Password""), ""b+8P+9F4CC4="")",Chrome 71.0.3578.98,,2018-12-16 13:56:18,2018-12-16 13:56:18,"0,245s",PASSED
+"click(findTestObject(""LoginAsesorBasic/button_INGRESE""))",Chrome 71.0.3578.98,,2018-12-16 13:56:18,2018-12-16 13:56:18,"0,115s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-16 13:56:18,2018-12-16 13:56:19,"0,685s",PASSED
+,,,,,,
+Test Cases/LoginAfiliadoBasic,Chrome 71.0.3578.98,,2018-12-16 13:56:19,2018-12-16 13:56:42,"22,936s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-16 13:56:19,2018-12-16 13:56:22,"2,397s",PASSED
+"navigateToUrl(""https://webasesorenlineaqa.azurewebsites.net/Affiliate/LoginAffiliate#!/"")",Chrome 71.0.3578.98,,2018-12-16 13:56:22,2018-12-16 13:56:27,"4,796s",PASSED
+delay(10),Chrome 71.0.3578.98,,2018-12-16 13:56:27,2018-12-16 13:56:37,"10,029s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione el Tipo de A""), ""3"", true)",Chrome 71.0.3578.98,,2018-12-16 13:56:37,2018-12-16 13:56:37,"0,235s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione el Tipo de D""), ""1"", true)",Chrome 71.0.3578.98,,2018-12-16 13:56:37,2018-12-16 13:56:37,"0,180s",PASSED
+"setText(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_NumeroIdentific""), ""71388459"")",Chrome 71.0.3578.98,,2018-12-16 13:56:37,2018-12-16 13:56:37,"0,193s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_Email""))",Chrome 71.0.3578.98,,2018-12-16 13:56:37,2018-12-16 13:56:37,"0,092s",PASSED
+"setText(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/input_CONTINUE_Email""), ""pruebas.callejas.asesor.en.linea.afiliado@gmail.com"")",Chrome 71.0.3578.98,,2018-12-16 13:56:37,2018-12-16 13:56:38,"0,486s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/button_CONTINUE""))",Chrome 71.0.3578.98,,2018-12-16 13:56:38,2018-12-16 13:56:38,"0,097s",PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-16 13:56:38,2018-12-16 13:56:41,"3,005s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione la EmpresaIG""), ""N900693655"", true)",Chrome 71.0.3578.98,,2018-12-16 13:56:41,2018-12-16 13:56:41,"0,215s",PASSED
+"click(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/button_INGRESE""))",Chrome 71.0.3578.98,,2018-12-16 13:56:41,2018-12-16 13:56:41,"0,101s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AfiliadoBasic/Page_AsesorEnLineaQA/Page_AsesorEnLineaQA/select_Seleccione la EmpresaIG""), ""0"", true)",Chrome 71.0.3578.98,,2018-12-16 13:56:41,2018-12-16 13:56:41,"0,143s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-16 13:56:41,2018-12-16 13:56:42,"0,773s",PASSED
+,,,,,,
+Test Cases/LoginAdmintradorBasic,Chrome 71.0.3578.98,,2018-12-16 13:56:42,2018-12-16 13:56:42,"0,168s",FAILED
+"navigateToUrl(""https://webasesorenlineaqa.azurewebsites.net/Account/Login#!/"")",Chrome 71.0.3578.98,,2018-12-16 13:56:42,2018-12-16 13:56:42,"0,004s",FAILED
